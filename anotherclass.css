@@ -1,0 +1,298 @@
+body {
+  background-color: rgb(28, 28, 70);
+  background-position: bottom;
+}
+
+.white {
+  color: white;
+  font-size: 24px;
+}
+
+.blue {
+  color: #00c3ff;
+  font-size: 24px;
+}
+
+.image-container {
+  display: flex;
+  /*side by side*/
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-container imgg {
+  margin: 0;
+
+}
+
+.navlinks {
+  display: flex;
+  /*side by side*/
+  gap: 20px;
+
+}
+
+.footer-container {
+  color: white;
+}
+
+.navlinks p {
+  margin: 0;
+  color: white;
+}
+
+.icon-container svg {
+  width: 40px;
+  margin: 0 10px;
+  margin-top: -30px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.text-section {
+  max-width: 40%;
+}
+
+.intro {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.intro .white {
+  color: white;
+}
+
+.intro .blue {
+  color: #00c3ff;
+}
+
+.description {
+  color: #ccc;     
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.bulb-image{
+  background-color: rgba(255, 255, 255, 0.046);
+  width:1400px;
+  display: flex;
+  border-radius: 12px;
+  margin: 40px 0px;
+}
+
+.title1{
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h3{
+  align-content: flex-start;
+  color: white;
+  font-size: 30px;
+
+}
+
+.web1 button{
+  align-content: flex-start;
+  border-radius: 5px;
+  background-color: rgb(83, 165, 83);
+  color: rgb(15, 70, 15);
+  outline: none;
+  border: none;
+}
+.web2 button{
+  align-content: flex-start;
+  border-radius: 5px;
+  background-color: red;
+  color: rgb(78, 27, 27);
+  outline: none;
+  border: none;
+}
+.web3 button{
+  align-content: flex-start;
+  border-radius: 5px;
+  background-color: #60A5FA;
+  color: rgba(112, 10, 112, 0.742);
+  outline: none;
+  border: none;
+}
+
+.cont1 {
+  color: white;
+  width: 500px;
+  margin-top: 120px;
+  text-align: left; 
+  font-size: 12px;
+  margin-left: -200px;    
+}
+.cont2 {
+  color: white;
+  width: 500px;
+  margin-top: 190px;
+  text-align: left;   
+  margin-left: -230px;    
+
+}
+.laptopimage {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.046);
+  border-radius: 20px;
+  width: 400px;     
+  height: 500px;    
+  margin: auto;     
+}
+.laptopimage img{
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+
+}
+
+.three-images{
+  display: flex;
+  justify-content: flex-start;
+}
+.laptopimage p{
+  color: white;
+  margin: 15px;
+
+}
+.laptopimage p int2{
+  color: white;
+  margin: 15px;
+
+}
+.laptopimage p int3{
+  color: white;
+  margin: 15px;
+
+}
+.laptopimage time{
+  color: rgba(255, 255, 255, 0.591);
+}
+
+.latest {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;            
+  width: 1350px; 
+  margin: 40px 0px;                    
+}
+
+.latest p {
+  color: white;
+  margin: 0;                       
+}
+
+
+.arrow-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;     
+  height: 24px;
+  border-radius: 50%;
+  background: rgb(223, 207, 207); 
+  color: white;   
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.little-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.outer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.046);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 15px;
+ outline: none;
+ border: none;
+}
+
+.outer-btn .label {
+  color: #555;
+}
+
+.outer-btn .inner-btn {
+  background: #00c3ff;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.outer-btn .email-btn {
+  color:white;
+  display: flex;
+}
+
+.subscribe {
+  width: 90%;
+  margin: 1rem 3rem;
+
+}
+.subscribe p{
+  color: white;
+
+}
+
+.outer-btn {
+  margin-left: 1200px;
+  align-items: center;
+  width: 100%;
+}
+.input-left{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-email {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.046);
+  border-radius: 18px;
+  width: 350px;
+  height: 40px;
+  padding-right: 12px;
+  border: none;
+}
+.input-email input{
+  flex: 1;
+  padding: 12px 5px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.input-email button{
+  padding: 6px 14px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #00c3ff;
+}
